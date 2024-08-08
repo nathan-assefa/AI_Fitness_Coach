@@ -1,0 +1,8 @@
+__pycache__
+
+.env
+
+stripe_subscription_managment.py
+
+db.sqlite3
+settings.py

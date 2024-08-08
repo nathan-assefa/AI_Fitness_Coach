@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Inter:wght@100..900&family=The+Nautigal:wght@400;700&display=swap");
+
+:root {
+  --radio-color: #01cc65;
+}
+
+main {
+  position: relative;
+}
+
+.auth-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.auth-background-img {
+  width: 100%;
+  min-height: 837px;
+  object-fit: cover;
+}
+
+main .left-col {
+  display: none;
+}
+
+main .right-col {
+  width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  padding: 26.33px 23.88px;
+  margin-right: 2.3em;
+}
+
+.radio-text {
+  font-size: 13px;
+}
+
+.radio-header {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-family: Inter;
+  color: rgb(136, 124, 124);
+}
+
+.radio-wrapper {
+  border: 2px solid green;
+}
+
+.already-have-account {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.already-have-account .have-account {
+  font-weight: 400;
+  font-size: 12.48px;
+  line-height: 18.72px;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 0.5em;
+}
+
+.already-have-account .have-account span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signup-error {
+  color: rgb(178, 22, 22);
+  font-size: 14px;
+}
+
+@media screen and (min-width: 950px) {
+  main .left-col {
+    position: absolute;
+    top: 4em;
+    left: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+  }
+
+  .auth-heading {
+    color: white;
+    font-size: 32px;
+    margin-top: 0.3em;
+    font-weight: bold;
+    font-family: Poppins;
+  }
+
+  .auth-subheading {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    width: 340px;
+    text-align: center;
+    margin-top: 0.3em;
+  }
+
+  main .right-col {
+    width: 592px;
+    height: auto;
+    background: white;
+    position: absolute;
+    right: 6em;
+    border-radius: 18.72px;
+    top: 3em;
+    padding: 26.33px 43.88px;
+    margin-top: unset;
+  }
+
+  .firt-and-last-name {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

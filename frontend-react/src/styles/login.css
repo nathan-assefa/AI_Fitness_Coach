@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Inter:wght@100..900&family=The+Nautigal:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+main {
+  position: relative;
+}
+
+.login-form-header {
+  margin-bottom: 1em;
+}
+
+.login-form-header h3 {
+  font-weight: 700;
+  font-family: Poppins;
+  font-size: 30px;
+  line-height: 38px;
+  color: rgb(70, 62, 62);
+}
+
+.auth-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.auth-background-img-in-login {
+  width: 100%;
+  /* height: 91.5vh; */
+  object-fit: cover;
+}
+
+main .left-col {
+  display: none;
+}
+
+.login-form-wrapper {
+  width: 100%;
+  height: auto;
+  background: white;
+  margin-right: auto;
+  margin-right: auto;
+  position: absolute;
+  padding: 26.33px 23.88px;
+}
+
+.login-error {
+  color: rgb(178, 22, 22);
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+}
+
+.separator {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  position: relative;
+  font-family: Poppins;
+  font-size: 12px;
+}
+
+.separator::after {
+  content: "";
+  width: 40%;
+  height: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgb(218, 206, 206);
+  position: absolute;
+  right: 1em;
+}
+
+.separator::before {
+  content: "";
+  width: 40%;
+  height: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgb(218, 206, 206);
+  position: absolute;
+  left: 1em;
+}
+
+.gooogle-auth-btn {
+  width: 100%;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  background: white;
+  /* border: 1px solid rgba(113, 44, 225, 0.7); */
+  padding: 2px 0;
+  border-radius: 8px;
+}
+
+.user-logs-in-using-google {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+@media screen and (min-width: 950px) {
+  .auth-background-img-in-login {
+    height: 91.5vh;
+  }
+  main .left-col {
+    position: absolute;
+    top: 4em;
+    left: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .auth-heading {
+    color: white;
+    font-size: 32px;
+    margin-top: 0.3em;
+    font-family: Poppins;
+  }
+
+  .auth-subheading {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    width: 340px;
+    text-align: center;
+    margin-top: -0.3em;
+  }
+
+  .login-form-wrapper {
+    width: 592px;
+    height: auto;
+    background: white;
+    position: absolute;
+    right: 6em;
+    border-radius: 18.72px;
+    top: 3em;
+    padding: 26.33px 43.88px;
+    margin-top: unset;
+    margin-right: 2.3em;
+  }
+
+  .user-logs-in-using-google {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1em;
+  }
+}

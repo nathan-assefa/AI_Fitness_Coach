@@ -1,0 +1,15 @@
+.message-loading-state {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.plan-choice-header {
+  color: rgb(87, 78, 78);
+  font-weight: lighter;
+}
+
+.plan-choice-subheading {
+  font-size: 13px;
+}

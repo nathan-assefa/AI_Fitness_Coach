@@ -1,0 +1,132 @@
+.greeting-user-wrapper,
+.redirecting-user-to-chatbot {
+  background: rgb(229, 227, 235);
+  width: 40%;
+  height: 60%;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.redirecting-user-to-chatbot {
+  flex-direction: column;
+  height: 45%;
+}
+
+.redirecting-user-to-chatbot .check {
+  background: rgb(76, 214, 76);
+  width: 40px;
+  height: 40px;
+  padding: 2em;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -3em;
+  filter: blur(0.5px);
+}
+
+.redirecting-user-to-chatbot h3 {
+  font-size: 25px;
+  width: 90%;
+  font-weight: 7000;
+  margin-top: 2em;
+}
+
+.redirecting-user-to-chatbot p {
+  font-size: 15px;
+  color: black;
+  margin-top: -1.4em;
+}
+
+.welcome-message {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.greeting-user-wrapper p {
+  color: rgb(53, 47, 47);
+  font-size: 12px;
+  margin-top: -1.2em;
+  text-align: center;
+  margin-bottom: 2em;
+  letter-spacing: 1px;
+}
+
+.greeting-user-wrapper label {
+  font-size: 13px;
+  margin-left: 2em;
+  min-width: 80px;
+  display: inline-block;
+  color: rgb(77, 71, 71);
+}
+
+.greeting-user-wrapper .option-container {
+  margin-bottom: 1em;
+}
+
+.greeting-user-wrapper .top-label {
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+}
+
+.greeting-user-wrapper input {
+  margin-right: 0.5em;
+}
+
+.greeting-user-wrapper .btn-active,
+.greeting-user-wrapper .btn-disabled {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98px;
+  height: 40px;
+  border-radius: 8px;
+  font-weight: 400;
+  border: none;
+  font-size: 14px;
+  margin-left: 1.6em;
+  background: linear-gradient(to right, black, rgb(104, 98, 98));
+  background-size: 200% 100%;
+  animation: feedingAnimation 3s linear infinite;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.greeting-user-wrapper .btn-disabled {
+  cursor: unset;
+  background: rgb(129, 125, 125);
+}
+
+.logo-in-greeting-user-page {
+  position: absolute;
+  right: 6em;
+  z-index: 9999999999;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+@keyframes spinAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate {
+  animation-name: spinAnimation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 16px;
+  height: 16px;
+}

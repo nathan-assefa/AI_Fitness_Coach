@@ -1,0 +1,57 @@
+{
+  "context": "Usted es un asistente de planificación de comidas para hombres, ayudando a su usuario a crear un plan de comidas personalizado basado en sus preferencias y objetivos. Haga preguntas perspicaces para entender sus necesidades dietéticas, niveles de actividad e intereses culinarios. Ajuste las preguntas de seguimiento y sugerencias basadas en las respuestas del usuario.",
+  "initial_questions": {
+    "primary_goals": "¿Cuáles son tus principales objetivos al seguir un plan de dieta (por ejemplo, pérdida de peso, ganancia muscular, mejora de la salud)?",
+    "eating_habits": "¿Cómo describirías tus hábitos alimenticios actuales?",
+    "dietary_restrictions_allergies": "¿Tienes alguna restricción dietética o alergia de la que debamos estar al tanto?",
+    "current_metrics": "¿Cuál es tu peso, altura y edad actual?",
+    "activity_level": "¿Qué tan activo eres en tu día a día? (Sedentario, Moderadamente Activo, Muy Activo)",
+    "meal_snack_preferences": "¿Cuántas comidas y refrigerios prefieres comer en un día?",
+    "food_exploration": "¿Estás abierto a probar alimentos nuevos o prefieres apegarte a los alimentos familiares?",
+    "dietary_preferences": "¿Tienes alguna preferencia por comidas altas en proteínas, bajas en carbohidratos, veganas o vegetarianas?",
+    "meal_preparation_time": "¿Cuánto tiempo puedes dedicar realistamente a la preparación de comidas cada día?",
+    "alcohol_caffeine_consumption": "¿Consumes algún alcohol o cafeína y con qué frecuencia?",
+    "hydration_strategy": "¿Cómo te mantienes hidratado durante el día y qué bebidas consumes?",
+    "past_diet_plans_experience": "¿Has seguido algún plan de dieta específico en el pasado? ¿Qué te gustó o disgustó de ellos?",
+    "digestive_issues": "¿Experimentas algún problema digestivo con ciertos alimentos o grupos alimenticios?",
+    "nutrition_management_outside_home": "¿Cómo manejas tu nutrición cuando comes fuera o viajas?",
+    "long_term_dietary_goals": "¿Cuáles son tus objetivos dietéticos a largo plazo y qué tan comprometido estás para lograrlos?"
+  },
+  "follow_up_questions": {
+    "favorite_foods": [
+      "¿Cuáles son algunos de tus alimentos o cocinas favoritas que disfrutas comer?",
+      "Es útil saberlo. ¿Hay algún alimento específico que te resulte difícil de cocinar o incorporar en tus comidas?",
+      "¿Tienes preferencias por tipos de comidas (por ejemplo, ideas para el desayuno, opciones de almuerzo rápido)?"
+    ],
+    "dietary_restrictions_preferences": [
+      "¿Tienes restricciones dietéticas o preferencias, como vegetariano, sin gluten, sin lácteos, etc.?",
+      "Entiendo. ¿Tienes alguna preocupación dietética relacionada con tus preferencias?",
+      "Además de tus preferencias, ¿estás dispuesto(a) a probar nuevas cocinas o experimentar con diferentes sabores?"
+    ],
+    "cooking_frequency": [
+      "¿Con qué frecuencia cocinas en casa?",
+      "¡Gracias por compartir! ¿Prefieres comidas simples o estás interesado(a) en explorar recetas más complejas?",
+      "Saber tu frecuencia de cocina es útil. ¿Tienes algún utensilio de cocina específico o electrodoméstico en el que confíes con frecuencia?"
+    ],
+    "favorite_cuisines": [
+      "¿Qué tipo de cocinas disfrutas más? ¿Hay alguna que te gustaría explorar más?",
+      "¡Interesante! Definitivamente puedo sugerir recetas que se alineen con tus preferencias. ¿Tienes alguna preocupación dietética relacionada con tus cocinas favoritas?",
+      "Además de tus favoritas, ¿estás dispuesto(a) a probar nuevas cocinas o experimentar con diferentes sabores?"
+    ],
+    "meal_preparation_time": [
+      "¿Cuánto tiempo estás generalmente dispuesto(a) a dedicar a la preparación de comidas por día?",
+      "Entender tus limitaciones de tiempo es crucial. ¿Prefieres planificar las comidas con anticipación para la semana o cocinar sobre la marcha?",
+      "Dadas tus limitaciones de tiempo, ¿hay alguna estrategia específica de preparación de comidas que encuentres útil (por ejemplo, cocinar en lotes, aprovechar las sobras)?"
+    ],
+    "meal_types_preferences": [
+      "¿Tienes preferencias por tipos de comidas (por ejemplo, ideas para el desayuno, opciones de almuerzo rápido)?",
+      "¡Eso es útil saberlo! ¿Hay algún tipo específico de comida en el que te gustaría centrarte (por ejemplo, opciones saludables, comidas reconfortantes)?",
+      "¿Tienes alguna preferencia dietética o restricción que debamos considerar para estos tipos de comidas?"
+    ],
+    "activity_level": [
+      "¿Qué tan activo(a) eres generalmente (por ejemplo, rutina de ejercicio diario, estilo de vida sedentario)?",
+      "¡Genial! Saber tu nivel de actividad me ayuda a adaptar los planes de comidas para alimentar tus actividades. ¿Tomas o estás considerando algún suplemento dietético específico?",
+      "Entender tu nivel de actividad es importante. ¿Cómo sueles recuperarte después de la actividad física?"
+    ]
+  }
+}

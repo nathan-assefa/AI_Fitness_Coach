@@ -1,0 +1,50 @@
+{
+  "context": "Eres un asistente de entrenamiento en el gimnasio para hombres, ayudando a los usuarios a desarrollar planes de entrenamiento personalizados para alcanzar sus objetivos de fitness. Involucra a los usuarios con preguntas específicas para comprender su nivel de fitness actual, los resultados deseados y las preferencias de ejercicio. Adapta las preguntas y recomendaciones posteriores según la información proporcionada por el usuario.",
+  "initial_questions": [
+    "¿Cuáles son tus objetivos específicos de fitness (por ejemplo, ganancia muscular, pérdida de grasa, mejora de resistencia)?",
+    "¿Cuántos días y horas por semana estás dispuesto a dedicar a entrenar en el gimnasio?",
+    "Describe tu rutina de fitness actual, si tienes alguna. ¿Qué te gusta o disgusta de ella?",
+    "¿Tienes acceso a un gimnasio? Si es así, ¿qué equipo está disponible para ti?",
+    "¿Has sufrido alguna lesión en el pasado que afecte tu capacidad para hacer ejercicio?",
+    "¿Cómo calificarías tu nivel de forma física actual (principiante, intermedio, avanzado)?",
+    "¿Qué tipos de entrenamientos disfrutas (por ejemplo, levantamiento de pesas, cardio, HIIT, entrenamiento en circuito)?",
+    "¿Estás tomando actualmente algún suplemento o medicamento que debamos tener en cuenta al diseñar tu rutina?",
+    "¿Cuál es tu peso y altura actual, y tienes un peso objetivo o una meta de composición corporal?",
+    "¿Cuál es tu ocupación, y esta implica estar sentado, de pie o realizar trabajo físico?",
+    "¿Cuántos pasos promedias por día y qué otras actividades físicas realizas regularmente?",
+    "¿Cuánto duermes en promedio por noche?",
+    "¿Qué te motiva a mantenerte en forma y activo?",
+    "¿Has trabajado con un entrenador personal o seguido un programa de fitness estructurado antes? ¿Cuál fue tu experiencia?",
+    "¿Cómo son tus hábitos nutricionales y estás buscando cambiarlos en conjunto con tu rutina de gimnasio?"
+  ],
+  "follow_up_prompts": {
+    "¿Cuáles son algunos de tus alimentos o cocinas favoritas que disfrutas comer?": [
+      "Es útil saberlo. ¿Hay algún alimento específico que te resulte difícil de cocinar o incorporar en tus comidas?",
+      "¿Tienes preferencias por tipos de comidas (por ejemplo, ideas para el desayuno, opciones de almuerzo rápido)?"
+    ],
+    "¿Tienes restricciones dietéticas o preferencias, como vegetariano, sin gluten, sin lácteos, etc.?": [
+      "Entiendo. ¿Tienes alguna preocupación dietética relacionada con tus preferencias?",
+      "Además de tus preferencias, ¿estás dispuesto(a) a probar nuevas cocinas o experimentar con diferentes sabores?"
+    ],
+    "¿Con qué frecuencia cocinas en casa?": [
+      "¡Gracias por compartir! ¿Prefieres comidas simples o estás interesado(a) en explorar recetas más complejas?",
+      "Saber tu frecuencia de cocina es útil. ¿Tienes algún utensilio de cocina específico o electrodoméstico en el que confíes con frecuencia?"
+    ],
+    "¿Qué tipo de cocinas disfrutas más? ¿Hay alguna que te gustaría explorar más?": [
+      "¡Interesante! Definitivamente puedo sugerir recetas que se alineen con tus preferencias. ¿Tienes alguna preocupación dietética relacionada con tus cocinas favoritas?",
+      "Además de tus favoritas, ¿estás dispuesto(a) a probar nuevas cocinas o experimentar con diferentes sabores?"
+    ],
+    "¿Cuánto tiempo estás generalmente dispuesto(a) a dedicar a la preparación de comidas por día?": [
+      "Entender tus limitaciones de tiempo es crucial. ¿Prefieres planificar las comidas con anticipación para la semana o cocinar sobre la marcha?",
+      "Dadas tus limitaciones de tiempo, ¿hay alguna estrategia específica de preparación de comidas que encuentres útil (por ejemplo, cocinar en lotes, aprovechar las sobras)?"
+    ],
+    "¿Tienes preferencias por tipos de comidas (por ejemplo, ideas para el desayuno, opciones de almuerzo rápido)?": [
+      "¡Eso es útil saberlo! ¿Hay algún tipo específico de comida en el que te gustaría centrarte (por ejemplo, opciones saludables, comidas reconfortantes)?",
+      "¿Tienes alguna preferencia dietética o restricción que debamos considerar para estos tipos de comidas?"
+    ],
+    "¿Qué tan activo(a) eres generalmente (por ejemplo, rutina de ejercicio diario, estilo de vida sedentario)?": [
+      "¡Genial! Saber tu nivel de actividad me ayuda a adaptar los planes de comidas para alimentar tus actividades. ¿Tomas o estás considerando algún suplemento dietético específico?",
+      "Entender tu nivel de actividad es importante. ¿Cómo sueles recuperarte después de la actividad física?"
+    ]
+  }
+}

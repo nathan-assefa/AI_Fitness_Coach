@@ -1,0 +1,16 @@
+.sub-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins;
+}
+
+.sub-wrapper h3 {
+  color: white;
+}
+
+.sub-wrapper p {
+  color: white;
+  text-align: center;
+  margin-top: -0.5em;
+}

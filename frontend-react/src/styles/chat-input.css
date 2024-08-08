@@ -1,0 +1,38 @@
+.send-message-icon {
+  width: 54px;
+  height: 44px;
+  border: 30%;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99999999;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1em;
+}
+
+.chakra-input {
+  position: sticky;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  border-radius: 50%;
+}
+
+.input-chat-wrapper {
+  width: 100%;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* 
+@media screen and (min-width: 950px) {
+  .send-message-icon {
+    top: 55%;
+  }
+} */

@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  --recipient-color: rgba(78, 53, 176, 1);
+  --sender-color: rgba(241, 237, 216, 1);
+}
+
+.list-message {
+  display: flex;
+  margin: 0;
+  height: 80vh;
+  /* height: 82%; */
+  background: white;
+}
+
+.list-msg-height {
+  /* height: 400px; */
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  padding-bottom: 5.2em;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.list-message::-webkit-scrollbar {
+  background: rgb(197, 194, 176);
+  width: 0.6em;
+}
+
+.llm-responses {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-family: Inter;
+}
+
+.recipinet-response {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.sender-response {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.sender-message,
+.recipinet-message {
+  padding: 10px;
+  max-width: 75%;
+  min-width: 20%;
+  font-size: 13px;
+  line-height: 20.68px;
+  font-weight: 400;
+  padding-bottom: 1.4em;
+}
+
+.recipinet-message {
+  background: rgba(113, 44, 225, 0.764);
+  color: white;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  position: relative;
+  margin-right: -1em;
+}
+
+.sender-message {
+  background: var(--sender-color);
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+  position: relative;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.u-date-formatter-recipient,
+.u-date-formatter-sender {
+  position: absolute;
+  right: 1em;
+  bottom: 0;
+  font-size: 10px;
+}
+
+.u-date-formatter-sender {
+  color: black;
+}
+
+.trainer-image-in-the-chat {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  z-index: 1;
+  left: -1em;
+}
+
+.wait-llm-div {
+  background: var(--sender-color);
+  width: 40px;
+  height: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.wait-llm {
+  animation-name: spinAnimation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 14px;
+  height: 14px;
+  color: rgb(51, 47, 47);
+  margin-top: 0.5em;
+}
+
+.llm-img {
+  bottom: -2em;
+}
+
+.user-choice-container {
+  width: 100%;
+  font-family: Inter;
+}
+
+@media screen and (min-width: 950px) {
+  .sender-message,
+  .recipinet-message {
+    max-width: 65%;
+  }
+
+  .list-message {
+    border-radius: 21px;
+    height: 82%;
+  }
+
+  .list-msg-height {
+    min-height: 100%;
+  }
+}

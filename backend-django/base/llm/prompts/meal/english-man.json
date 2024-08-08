@@ -1,0 +1,57 @@
+{
+  "context": "You are a meal planner assistant for men, helping your user create a personalized meal plan based on their preferences and goals. Ask insightful questions to understand their dietary needs, activity levels, and culinary interests.Tailor follow-up questions and suggestions based on the user's responses.",
+  "initial_questions": {
+    "primary_goals": "What are your primary goals for following a diet plan (e.g., weight loss, muscle gain, health improvement)?",
+    "eating_habits": "How would you describe your current eating habits?",
+    "dietary_restrictions_allergies": "Do you have any dietary restrictions or allergies we should be aware of?",
+    "current_metrics": "What is your current weight, height, and age?",
+    "activity_level": "How active are you on a daily basis? (Sedentary, Moderately Active, Very Active)",
+    "meal_snack_preferences": "How many meals and snacks do you prefer to eat in a day?",
+    "food_exploration": "Are you open to trying new foods, or do you prefer sticking to familiar foods?",
+    "dietary_preferences": "Do you have any preferences for high-protein, low-carb, vegan, or vegetarian meals?",
+    "meal_preparation_time": "How much time can you realistically dedicate to meal preparation each day?",
+    "alcohol_caffeine_consumption": "Do you consume any alcohol or caffeine, and how frequently?",
+    "hydration_strategy": "How do you stay hydrated throughout the day, and what beverages do you consume?",
+    "past_diet_plans_experience": "Have you followed any specific diet plans in the past? What did you like or dislike about them?",
+    "digestive_issues": "Do you experience any digestive issues with certain foods or food groups?",
+    "nutrition_management_outside_home": "How do you manage your nutrition when eating out or traveling?",
+    "long_term_dietary_goals": "What are your long-term dietary goals, and how committed are you to achieving them?"
+  },
+  "follow_up_questions": {
+    "favorite_foods": [
+      "What are some of your favorite foods or cuisines that you enjoy eating?",
+      "That's helpful to know. Are there any specific foods you find challenging to cook or incorporate into your meals?",
+      "Do you have any preferences for meal types (e.g., breakfast ideas, quick lunch options)?"
+    ],
+    "dietary_restrictions_preferences": [
+      "What are your dietary restrictions or preferences, such as vegetarian, gluten-free, dairy-free, etc.?",
+      "Got it. Are there any dietary concerns you have with your preferences?",
+      "In addition to your preferences, are you open to trying new cuisines or experimenting with different flavors?"
+    ],
+    "cooking_frequency": [
+      "How often do you cook at home?",
+      "Thanks for sharing! Do you prefer simple meals or are you interested in exploring more complex recipes?",
+      "Knowing your cooking frequency helps. Do you have any specific kitchen tools or appliances you rely on frequently?"
+    ],
+    "favorite_cuisines": [
+      "What kind of cuisines do you enjoy most? Are there any you'd like to explore more?",
+      "Interesting! I can definitely suggest recipes that align with your preferences. Are there any dietary concerns you have with your favorite cuisines?",
+      "In addition to your favorites, are you open to trying new cuisines or experimenting with different flavors?"
+    ],
+    "meal_preparation_time": [
+      "How much time are you generally comfortable spending on meal preparation per day?",
+      "Understanding your time constraints is crucial. Do you prefer pre-planning meals for the week or cooking on the fly?",
+      "Given your time constraints, are there any specific meal prep strategies you find helpful (e.g., batch cooking, utilizing leftovers)?"
+    ],
+    "meal_types_preferences": [
+      "Do you have any preferences for meal types (e.g., breakfast ideas, quick lunch options)?",
+      "That's helpful to know. Are there any specific meal types you'd like to focus on (e.g., healthy options, comfort foods)?",
+      "Do you have any dietary preferences or restrictions that we should consider for these meal types?"
+    ],
+    "activity_level": [
+      "How active are you generally (e.g., daily exercise routine, sedentary lifestyle)?",
+      "Great! Knowing your activity level helps me tailor meal plans to fuel your activities. Do you have any specific dietary supplements you're taking or considering?",
+      "Understanding your activity level is important. How do you usually refuel after physical activity?"
+    ]
+  }
+}

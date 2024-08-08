@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Heebo:wght@100..900&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=The+Nautigal:wght@400;700&display=swap");
+
+.slider-tst {
+  display: flex;
+  max-width: 98%;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  align-items: center;
+  font-family: Lato;
+}
+
+.testimonial-image {
+  width: 225px;
+  height: 256px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.testimonial-image img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.testimonial-info {
+  margin-left: -1.6em;
+  width: 50%;
+}
+
+.testimonial-info .testimonial-date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: rgba(82, 82, 82, 1);
+}
+
+.testimonial-info .testimonial-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22.8px;
+  color: rgba(82, 82, 82, 1);
+  width: 100%;
+  margin-top: 0;
+}
+
+.testimonial-info .testimonial-description {
+  width: 95%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: rgba(82, 82, 82, 1);
+  margin-top: -1em;
+}
+
+@media screen and (min-width: 950px) {
+  .slider-tst {
+    display: flex;
+  }
+
+  .testimonial-image {
+    width: 225px;
+    height: 296px;
+  }
+
+  .testimonial-image img {
+    width: 180px;
+    height: 100%;
+  }
+
+  .testimonial-info {
+    margin-left: 2.6em;
+    width: 100%;
+  }
+
+  .testimonial-info .testimonial-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: rgba(82, 82, 82, 1);
+    width: 485px;
+    margin-top: 0;
+  }
+
+  .testimonial-info .testimonial-description {
+    width: 437px;
+  }
+}

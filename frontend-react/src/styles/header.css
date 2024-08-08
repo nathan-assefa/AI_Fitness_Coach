@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.nav-wrapper,
+.second-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+  position: relative;
+  height: 55px;
+}
+
+.menu-icon {
+  color: white;
+  position: absolute;
+  right: 2em;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 9999999999;
+}
+
+.exit-btn {
+  margin-bottom: 1em;
+  margin-top: -1.3em;
+  padding: 0 1.4em;
+  float: right;
+  margin-right: 3em;
+  cursor: pointer;
+}
+
+.second-nav-wrapper {
+  background: rgba(240, 233, 216, 1);
+}
+
+.nav-items-lists {
+  position: fixed;
+  width: 60%;
+  top: -1em;
+  right: 0;
+  text-align: left;
+  background-color: rgb(241, 230, 230);
+  height: 100%;
+  z-index: 999;
+  padding-top: 3em;
+}
+
+.nav-items-lists li {
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.nav-items-lists li:hover {
+  font-size: 16.3px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1em;
+}
+
+.ptmx .not-home-page {
+  display: none;
+}
+
+.nav-wrapper .ptmx,
+.not-home-page {
+  position: absolute;
+  color: white;
+  margin-left: 3em;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.not-home-page {
+  color: rgba(113, 44, 225, 0.764);
+}
+
+.hidden {
+  display: none;
+}
+
+.sign-in,
+.auth-btn {
+  text-decoration: none;
+}
+
+.log-in-button {
+  color: red;
+}
+
+.second-nav-wrapper nav {
+  width: 100%;
+  justify-content: right;
+  margin-left: auto;
+}
+
+.second-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.second-nav-wrapper .language {
+  color: #333333;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: atuo;
+}
+
+.down-arrow {
+  margin-top: -0.1em;
+  margin-left: -0.6em;
+}
+
+.auth-btn {
+  margin-right: 1.2em;
+}
+
+.user-info-wrapper {
+  display: none;
+}
+
+.sign-out-btn {
+  background: none;
+  color: rgb(190, 182, 182);
+  border: none;
+  cursor: pointer;
+}
+
+.log-out-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.get-started-btn {
+  right: 1em;
+}
+
+.language-change-alert {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.user-login-btn {
+  color: black;
+  margin-top: 0.1em;
+}
+
+@media screen and (min-width: 950px) {
+  .menu-icon,
+  .exit-btn {
+    display: none;
+  }
+  .hidden {
+    display: unset;
+  }
+
+  .nav-wrapper .ptmx,
+  .not-home-page {
+    margin-left: 4.2em;
+  }
+
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    width: 45%;
+    color: white;
+    margin-right: 4em;
+  }
+
+  .second-nav-wrapper nav {
+    width: 40%;
+    justify-content: space-around;
+    margin-left: auto;
+  }
+
+  .past-chats {
+    color: white;
+  }
+
+  .nav-items li {
+    cursor: pointer;
+  }
+
+  .sign-in,
+  .auth-btn {
+    position: unset;
+    right: 1.5em;
+    margin-left: 1.5em;
+  }
+
+  .second-nav-wrapper nav {
+    width: 40%;
+    justify-content: space-around;
+    margin-left: auto;
+  }
+
+  .user-info-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px 8px;
+    border-radius: 21px;
+    border: 2px solid rgba(78, 53, 176, 1);
+  }
+
+  .name-and-email {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .second-nav-list {
+    width: 100%;
+  }
+
+  .name-and-email .first-name {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .user-info-wrapper .email {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+  }
+
+  .sign-out-btn {
+    background: none;
+    color: rgb(190, 182, 182);
+    border: none;
+    cursor: pointer;
+  }
+
+  .log-out-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .get-started-btn {
+    top: 0;
+    right: 1.5em;
+    margin-left: auto;
+    margin-right: 2em;
+  }
+
+  .user-login-btn {
+    background: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+
+  .user-login-btn:hover {
+    background: rgb(236, 230, 230);
+  }
+}

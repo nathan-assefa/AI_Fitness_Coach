@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Heebo:wght@100..900&family=Inter:wght@100..900&family=The+Nautigal:wght@400;700&display=swap");
+
+.all-plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+  position: relative;
+}
+
+.plan {
+  background: white;
+  width: 70%;
+  padding: 18.32px 36.63px;
+  margin-bottom: 4em;
+  border-radius: 21px;
+}
+
+.all-plans .left-plan {
+  position: relative;
+}
+
+.plan h3 {
+  color: black;
+  font-size: 33.31px;
+  line-height: 33.72px;
+  font-weight: 700;
+  letter-spacing: 5%;
+  font-family: "East Sea Dokdo";
+  margin-top: -0.3px;
+}
+
+.all-plans .membership {
+  font-weight: 400;
+  font-size: 10.99px;
+  line-height: 10.99px;
+  color: rgba(124, 124, 124, 1);
+  margin-top: -1em;
+}
+
+.all-plans .per-month .one-dollar {
+  font-size: 36.63px;
+  font-weight: 500;
+  line-height: 44.34px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.all-plans .per-month .slash-month {
+  font-weight: 600;
+  font-size: 10.99px;
+  line-height: 13.3px;
+  color: rgba(101, 101, 101, 1);
+  margin-left: 6px;
+}
+
+.all-plans .save-30 {
+  font-weight: 400;
+  font-size: 10.99px;
+  line-height: 14.32px;
+  color: rgba(124, 124, 124, 1);
+  position: relative;
+}
+
+.all-plans .save-30::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: rgba(174, 174, 174, 1);
+  position: absolute;
+  z-index: 9999;
+  bottom: 2.5em;
+  left: 0;
+  bottom: -3.6em;
+}
+
+.all-plans ul {
+  margin-top: 4em;
+  margin-left: -1.4em;
+}
+
+.all-plans ul li {
+  font-weight: 400;
+  font-size: 12.94px;
+  line-height: 15.66px;
+  color: rgba(46, 46, 46, 1);
+  padding-bottom: 1.7em;
+}
+
+.all-plans .middle-plan {
+  height: 563px;
+  background: white;
+  position: relative;
+}
+
+.all-plans .right-plan {
+  position: relative;
+}
+
+.all-plans .left-plan,
+.all-plans .right-plan {
+  height: 450px;
+  padding-bottom: 10em;
+}
+
+.all-plans .choose-plan {
+  background: rgba(225, 70, 64, 1);
+  border-radius: 54px;
+  padding: 13.74px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18.32px;
+  line-height: 21.07px;
+  letter-spacing: 10%;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1.3em;
+  border: none;
+  cursor: pointer;
+}
+
+.all-plans .choose-second-plan {
+  bottom: 1.7em;
+  width: 230px;
+  right: 17%;
+}
+
+@media screen and (min-width: 950px) {
+  .all-plans {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .plan {
+    width: 20%;
+    margin-bottom: unset;
+    border-radius: unset;
+  }
+
+  .all-plans .left-plan {
+    border-top-left-radius: 18.32px;
+    border-bottom-left-radius: 18.32px;
+    position: relative;
+  }
+
+  .all-plans ul {
+    margin-top: 7em;
+  }
+
+  .all-plans .middle-plan {
+    height: 713px;
+    background: rgba(233, 233, 233, 1);
+  }
+
+  .all-plans .right-plan {
+    border-top-right-radius: 18.32px;
+    border-bottom-right-radius: 18.3;
+    position: relative;
+  }
+
+  .all-plans .left-plan,
+  .all-plans .right-plan {
+    height: 500px;
+    padding-bottom: 10em;
+  }
+
+  .all-plans .middle-plan .choose-plan {
+    bottom: 4em;
+    width: 250px;
+    right: 13%;
+  }
+
+  .all-plans .choose-second-plan {
+    bottom: 1.7em;
+    width: 230px;
+    right: 17%;
+  }
+}

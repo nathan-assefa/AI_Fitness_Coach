@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.last-section-wrapper {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  margin-left: 2em;
+}
+
+.last-section-blured-header {
+  font-size: 300px;
+  position: absolute;
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px rgb(238, 230, 230);
+  text-align: center;
+  top: -1em;
+  letter-spacing: 23px;
+}
+
+.last-section-left-col {
+  display: none;
+}
+
+.last-section-right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.last-section-heading {
+  font-weight: 700;
+  font-size: 58px;
+  letter-spacing: 0.68px;
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  margin-bottom: 1.3em;
+}
+
+.last-section-description {
+  font-weight: 400;
+  font-size: 13px;
+  width: 85%;
+  line-height: 19.5px;
+  letter-spacing: 0.68px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: -5em;
+}
+
+.last-section-two-btn {
+  display: flex;
+  align-items: center;
+}
+
+.email-subscribe-form-wrapper {
+  margin-top: 1em;
+}
+
+.email-subscribe-input input {
+  width: 70%;
+  padding: 0.8em 0.8em;
+  border-radius: 32px;
+  border: 1px solid rgb(114, 103, 103);
+  font-size: 16px;
+}
+
+.email-subscribe-input input::placeholder {
+  font-size: 13px;
+  line-height: 23.5px;
+  letter-spacing: 0.68px;
+  font-weight: 400;
+  color: rgb(54, 51, 51);
+}
+
+.email-subscribe-save-btn {
+  font-size: 12px;
+  line-height: 23.5px;
+  letter-spacing: 0.68px;
+  font-weight: 400;
+  color: rgb(54, 51, 51);
+  padding: 1em 6em 1em 1em;
+  border: 1px solid rgb(114, 103, 103);
+  border-radius: 32px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 1.2em;
+}
+
+.email-subscribe-save-btn::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  right: -0.3em;
+  border-radius: 50%;
+  top: -0.1em;
+  border: 1px solid rgb(114, 103, 103);
+  background: white;
+}
+
+.email-btn-left-arrow {
+  color: rgb(114, 103, 103);
+  position: absolute;
+  right: 1em;
+  z-index: 999;
+}
+
+@media screen and (min-width: 950px) {
+  .last-section-wrapper {
+    margin-left: unset;
+  }
+
+  .last-section-left-col {
+    display: unset;
+    width: 560px;
+  }
+
+  .last-section-heading {
+    font-size: 108px;
+  }
+
+  .last-section-description {
+    width: 591px;
+    margin-top: -8em;
+    line-height: 23.5px;
+    font-size: 14px;
+  }
+
+  .email-subscribe-form-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+  }
+
+  .email-subscribe-input input {
+    width: 300px;
+    padding: 1.2em 3em;
+    font-size: 16px;
+  }
+
+  .email-subscribe-input input::placeholder {
+    font-size: 16px;
+  }
+
+  .email-subscribe-save-btn {
+    font-size: 16px;
+    margin-left: 2em;
+    margin-top: unset;
+  }
+}
