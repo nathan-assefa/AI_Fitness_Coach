@@ -1,6 +1,6 @@
-# FitAI Trainer
+# Personal Fitness Bot
 
-##### FitAI Trainer is an innovative AI-powered application designed to help users achieve their fitness goals. By leveraging the power of artificial intelligence, the app allows users to interact with a chatbot that collects detailed information, enabling trainers to create personalized fitness plans based on the chat history.
+##### Personal Fitness Bot is an innovative AI-powered application designed to help users achieve their fitness goals. By leveraging the power of artificial intelligence, the app allows users to interact with a chatbot that collects detailed information, enabling trainers to create personalized fitness plans based on the chat history.
 
 ## 🚀 Tech Stack
 
@@ -12,7 +12,7 @@
 - Google Auth 🔐
 - Simple JWT 🔑
 
-FitAI Trainer combines cutting-edge technology with an intuitive interface to make personalized fitness planning easy and effective.
+Personal Fitness Bot combines cutting-edge technology with an intuitive interface to make personalized fitness planning easy and effective.
 
 ![Application Logo](https://github.com/nathan-assefa/AI_Fitness_Coach/blob/main/frontend-react/public/main-logo.png)
 
