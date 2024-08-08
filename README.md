@@ -14,7 +14,7 @@
 
 Personal Fitness Bot combines cutting-edge technology with an intuitive interface to make personalized fitness planning easy and effective.
 
-![Application Logo](https://github.com/nathan-assefa/AI_Fitness_Coach/blob/main/frontend-react/public/main-logo.png)
+![Application Logo](https://github.com/nathan-assefa/AI_Fitness_Coach/blob/main/frontend-react/public/ptmx_chat_page.PNG)
 
 ## Get all the help you need
 
