@@ -25,6 +25,7 @@ If you have any questions or need assistance, please feel free to reach out to m
 - 🛡️ Robust backend using Django DRF
 - 🔒 Security with Simple JWT and Google OAuth
 - 💳 Stripe integration for subscription management
+- 🗂️ State management with Redux Toolkit
 - 🎨 Beautiful UI design
 - 📊 Advanced admin dashboard with Metronic UI
 - 🤖 Friendly chatbot for user interaction
