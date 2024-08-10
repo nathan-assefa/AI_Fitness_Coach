@@ -16,6 +16,12 @@ Personal Fitness Bot combines cutting-edge technology with an intuitive interfac
 
 ![Application Logo](https://github.com/nathan-assefa/AI_Fitness_Coach/blob/main/frontend-react/public/ptmx_chat_page.PNG)
 
+### Full Video
+
+| 🟢 Fitness trainer bot demo                                         | 🔴 Admin Dashboard bot demo                                         |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [Fitness trainer](https://youtu.be/1WyKkliR6IQ?si=mi8ElQQif4Q7UwVa) | [Admin dashboard](https://youtu.be/UBvukHCBGKs?si=UDa6VwsVB0qIZilL) |
+
 ## Get all the help you need
 
 If you have any questions or need assistance, please feel free to reach out to me anytime. I'm available on [Linkedin](https://www.linkedin.com/in/nathan-assefa-9ba017253/) and happy to help with any inquiries or support you might need.
